@@ -2,11 +2,11 @@ let Validator = require('validatorjs');
 const { 
   paginate,  
   limitAndOffset
-} = require("../../../../utils/Helpers");
+} = require("../../../utils/Helpers");
 const { 
   role,
   permission,
-} = require('../../../models');
+} = require('../../models');
 
 
 //= ====================================

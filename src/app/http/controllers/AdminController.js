@@ -3,10 +3,10 @@ const {
   slug,
   paginate,
   limitAndOffset
-} = require("../../../../utils/Helpers");
+} = require("../../../utils/Helpers");
 const {
   adminAuditLog,
-} = require('../../services/admin/SystemService');
+} = require('../services/SystemService');
 const { 
   state,
   lga,
@@ -14,7 +14,7 @@ const {
   pollingUnit,
   role,
   user,
-} = require('../../../models');
+} = require('../../models');
 
 /**
  * Display a list of the resource.

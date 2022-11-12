@@ -1,15 +1,15 @@
 let Validator = require('validatorjs');
 const { Op } = require('sequelize');
-const { adminAuditLog } = require('../../services/admin/SystemService');
-const { user } = require('../../../models');
-const config = require('../../../../config/data');
+const { adminAuditLog } = require('../services/SystemService');
+const { user } = require('../../models');
+const config = require('../../../config/data');
 const { 
   titleCase, 
   accessToken, 
   refresToken,  
   hashPassword,
   compareHashPassword
-} = require("../../../../utils/Helpers");
+} = require("../../../utils/Helpers");
 
 /**
  * Create a new user for an incoming registration request.

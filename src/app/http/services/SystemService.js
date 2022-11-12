@@ -1,6 +1,6 @@
 let Validator = require('validatorjs');
-const { limitAndOffset } = require("../../../../utils/Helpers");
-const { auditLog,  } = require('../../../models');
+const { limitAndOffset } = require("../../../utils/Helpers");
+const { auditLog,  } = require('../../models');
 
 //= ====================================
 //  SYSTEM SERVICE 
